@@ -1,7 +1,11 @@
 const express = require('express')
 const path = require('path')
-const 
+const CoinGecko = require('coingecko-api')
 const app = express()
+
+const coin_gecko_client = new CoinGecko()
+
+
 
 const tf = require('@tensorflow/tfjs')
 
